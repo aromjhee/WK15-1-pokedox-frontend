@@ -1,8 +1,10 @@
 import React from 'react';
 
-function App() {
+import PokemonBrowser from './PokemonBrowser';
+
+const App = () => {
   return (
-    <h1>Hello world!</h1>
+    <PokemonBrowser />
   );
 }
 
